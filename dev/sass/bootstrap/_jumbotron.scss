@@ -35,11 +35,6 @@
     padding-top:    ($jumbotron-padding * 1.6);
     padding-bottom: ($jumbotron-padding * 1.6);
 
-    .container & {
-      padding-left:  ($jumbotron-padding * 2);
-      padding-right: ($jumbotron-padding * 2);
-    }
-
     h1,
     .h1 {
       font-size: ($font-size-base * 4.5);

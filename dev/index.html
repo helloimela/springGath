@@ -20,12 +20,9 @@
   <body>
 
     <div ng-app="sthlm2017" ng-controller="MainCtrl">
-      <div class="container">
-          <!-- <div ng-include='"templates/header.html"'></div> -->
-          <div ng-view>
-          </div>
-          <!-- <div ng-include='"templates/footer.html"'></div> -->
-        </div>
+        <div ng-include='"partials/header.html"'></div>
+        <div ng-view></div>
+        <!-- <div ng-include='"templates/footer.html"'></div> -->
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
