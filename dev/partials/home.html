@@ -1,0 +1,15 @@
+<div ng-controller="HomeCtrl">
+	<div class="container home">
+	    <div class="rows">
+	        <div class="col-sm-12">
+	            <ol>
+	                <li ng-repeat="location in locations">
+	                    <p class="question">{{location.question}}</p>
+	                    <a href="" ng-click="toggleModal(location.bonusPoint)" class="btn btn-warning">Bonus Point</a>
+	                </li>
+	            </ol>
+	        </div>
+	    </div>
+	</div>
+	 <modal show-modal="modal.show" info="imageUrl"></modal>
+</div>
