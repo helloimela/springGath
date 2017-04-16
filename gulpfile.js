@@ -107,10 +107,10 @@ gulp.task('scripts', function() {
 gulp.task('watch', function() {
     gulp.watch(['bower.json','.bowerrc'],['clean:vendorjs','bower']);
     gulp.watch('dev/js/main/**/*.js', ['clean:js','lint', 'scripts']);
-    gulp.watch('dev/img/**/*', ['clean:images', 'image']);
+    // gulp.watch('dev/img/**/*', ['clean:images', 'image']);
     gulp.watch('dev/**/*.html', ['html']);
     gulp.watch('dev/sass/**/*.scss', ['compass']);
 });
 
 // Default Task
-gulp.task('default', ['html', 'image', 'lint', 'compass', 'bower', 'scripts', 'watch']);
+gulp.task('default', ['html', 'lint', 'compass', 'bower', 'scripts', 'watch']);

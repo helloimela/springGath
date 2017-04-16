@@ -8,14 +8,14 @@
 	</div>
 	<div class="container home">
 	    <div class="rows">
-	        <div class="col-sm-12">
-	            <ol>
-	                <li ng-repeat="location in locations">
-	                    <p class="question">{{location.question}}</p>
-	                    <a href="" ng-click="toggleModal(location.bonusPoint)" class="btn btn-warning">Bonus Point</a>
-	                </li>
-	            </ol>
-	        </div>
+	    	<div ng-repeat="location in locations" class="col-xs-12 col-sm-6 col-md-4">
+	    		<div class="panel panel-default">
+	    		  <div class="panel-body">
+	    		    <p>{{location.question}}</p>
+	    		    <a href="" ng-if="location.bonusPoint" ng-click="toggleModal(location.bonusPoint)" class="">Bonus Point</a>
+	    		  </div>
+	    		</div>
+	    	</div>
 	    </div>
 	</div>
 	 <modal show-modal="modal.show" info="imageUrl"></modal>
