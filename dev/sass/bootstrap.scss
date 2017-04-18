@@ -124,6 +124,10 @@ html,body{
         margin-bottom: 6px;
     }
 }
+.list-styled{
+    list-style-type: disc;
+    li{margin-left: 15px;list-style: disc;}
+}
 
 .collapse{
     @include transition(height .35s ease);

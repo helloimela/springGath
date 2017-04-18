@@ -65,10 +65,10 @@ app.controller('HomeCtrl', ['$http','$scope','$location',function($http, $scope,
     question:'The democratic representatives of the people congregate here, shaping the country.',
     bonusPoint:'img/09.jpg'
   },{
-    question:'The food feast upon the bestowal of the Nobel prize takes place here',
+    question:'The food feast upon the bestowal of the Nobel prize takes place here.',
     bonusPoint:'img/10.jpg'
   },{
-    question:'The focal point of multiple transportation modes',
+    question:'The focal point of multiple transportation modes.',
     bonusPoint:'img/11.jpg'
   },{
     question:'I host remnants of a 17th century-naval instrument of war.',
@@ -80,7 +80,7 @@ app.controller('HomeCtrl', ['$http','$scope','$location',function($http, $scope,
     question:'Now moored next to the bridge of crowns, my masts are without sails.',
     bonusPoint:'img/15.jpg'
   },{
-    question:'Very popular with both locals and tourists alike, one may have seen it pictured with a red house on the left and a yellow house on the right',
+    question:'Very popular with both locals and tourists alike, one may have seen it pictured with a red house on the left and a yellow house on the right.',
     bonusPoint:''
   },{
     question:'A place to skate in the winter, a place to see pink flower petals in the spring.',
@@ -104,7 +104,7 @@ app.controller('HomeCtrl', ['$http','$scope','$location',function($http, $scope,
     members:['Aidilla Pradini','Jeffry Leonardo William','Marlodieka Wibawa','Fatimah Ilona Asa Sabsono']
   },{
     title:'Kelompok 5',
-    members:['Alfi Hadi Firdaus','Resti Kinanti Rudjito','Nanda Asridinan Noor','Immanuel Sanka']
+    members:['Suci Layung Sari','Resti Kinanti Rudjito','Nanda Asridinan Noor','Immanuel Sanka']
   },{
     title:'Kelompok 6',
     members:['Alicia Nevriana','Ramadhan Sagala','Rizka Pravitianasari','Jody Raditya Hanindyawan Handoko']

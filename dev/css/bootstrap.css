@@ -6659,6 +6659,14 @@ html, body {
   margin-bottom: 6px;
 }
 
+.list-styled {
+  list-style-type: disc;
+}
+.list-styled li {
+  margin-left: 15px;
+  list-style: disc;
+}
+
 .collapse {
   -moz-transition: height 0.35s ease;
   -o-transition: height 0.35s ease;

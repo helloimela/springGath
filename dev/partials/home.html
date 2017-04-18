@@ -11,8 +11,8 @@
 	    	<div ng-repeat="location in locations" class="col-xs-12 col-sm-6 col-md-4">
 	    		<div class="panel panel-default">
 	    		  <div class="panel-body">
-	    		    <p>{{location.question}}</p>
-	    		    <a href="" ng-if="location.bonusPoint" ng-click="toggleModal(location.bonusPoint)" class="">Bonus Point</a>
+	    		    <p><span class="fc-primary">Check Point: </span>{{location.question}}</p>
+	    		    <a href="" ng-if="location.bonusPoint" ng-click="toggleModal(location.bonusPoint)" class="">Lihat Bonus Point</a>
 	    		  </div>
 	    		</div>
 	    	</div>
